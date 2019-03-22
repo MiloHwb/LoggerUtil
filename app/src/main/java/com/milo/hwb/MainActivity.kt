@@ -10,8 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        XLog.init("Milo",false)
+        XLog.init("Milo",true)
 
-        XLog.d(this@MainActivity,"Hello")
+        XLog.d(this@MainActivity,"Hello, World!")
     }
 }
